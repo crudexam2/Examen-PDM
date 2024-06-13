@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "examen",
+    "collectionId": "97dc392d-ef62-456e-bc0a-176416fc8c2e",
+    "dateExported": "2024-06-13T13:36:04.625Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "11b36b3b-2c53-4255-960f-d573538db3a4",
+            "colId": "97dc392d-ef62-456e-bc0a-176416fc8c2e",
+            "containerId": "",
+            "name": "crearP",
+            "url": "http://localhost:3010/api/user",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-29T13:08:26.896Z",
+            "modified": "2024-06-13T13:25:26.614Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Kayn Shieda Figura\",\n  \"cantidad\": 1,\n  \"precio\": 150000\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3e89816d-6899-4b90-b934-f308c2f8163b",
+            "colId": "97dc392d-ef62-456e-bc0a-176416fc8c2e",
+            "containerId": "",
+            "name": "mostrarP",
+            "url": "http://localhost:3010/api/user",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-29T13:21:17.252Z",
+            "modified": "2024-06-13T12:36:41.653Z",
+            "headers": []
+        },
+        {
+            "_id": "3d174a76-fdba-40bc-92e6-3695876d811b",
+            "colId": "97dc392d-ef62-456e-bc0a-176416fc8c2e",
+            "containerId": "",
+            "name": "buscarID",
+            "url": "http://localhost:3010/api/user/3",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-29T13:22:35.684Z",
+            "modified": "2024-06-13T13:25:38.503Z",
+            "headers": []
+        },
+        {
+            "_id": "71b1aa0c-1324-41b8-9ba8-f9c7a9f0abbd",
+            "colId": "97dc392d-ef62-456e-bc0a-176416fc8c2e",
+            "containerId": "",
+            "name": "modificarP",
+            "url": "http://localhost:3010/api/user/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-29T13:24:04.387Z",
+            "modified": "2024-06-13T13:18:34.680Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Kayn4\",\n  \"cantidad\": 4,\n  \"precio\": 37,\n  \"id\": 2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "dc0d52de-8b41-4594-86c5-ff320c7bd58b",
+            "colId": "97dc392d-ef62-456e-bc0a-176416fc8c2e",
+            "containerId": "",
+            "name": "eliminarP",
+            "url": "http://localhost:3010/api/user",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-29T13:28:07.119Z",
+            "modified": "2024-06-13T13:25:57.251Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 2\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "y-paDdCWVxAAuV7FKTf8HbRSiQcLvyamTu3F_yaDMHWURR2ny8NabvrgzMcl03vHmVHC8EyKUFX3Vv7GA-oweg"
+}

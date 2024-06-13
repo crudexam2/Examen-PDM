@@ -1,0 +1,10 @@
+1) Montarlo en github - organización.
+2) Post, get, get, put, delete.
+3) Crear base de datos -> tabla, minimo 1 campo.
+4) Exportar la db y save en el proyecto.
+5) Crear la collage y save en el proyecto.
+6) No montar la folder node_module a github.
+7) Construir el distribuidor - dist.
+8) Sacar apuntes.
+9) Ultimo commit se debe llamar "Plan de mejoramiento 1".
+10) Copiar todas las condiciones y subirlas al proyecto.
