@@ -54,7 +54,7 @@ export const modificarProducto = async(req,res)=>{
         if (respuesta[0].affectedRows == 1){
             success(req,res,200, "Producto modificado");
         }else{
-            error(req,res,400, "No se puede modificar")
+            error(req,res,400, "No se puede modificar el producto")
         }
         
     } catch (err) {
